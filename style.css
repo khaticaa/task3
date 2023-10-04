@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+width: 100%;
+height: 60px;
+background-color:#8a929c;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.navbar_left{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 50px;
+}
+ul{
+list-style: none;
+display: flex;
+padding-right: 40px;
+}
+ul li{
+    margin: 20px;
+
+}
+ul li a{
+ text-decoration: none;
+ color: white;
+}
+.container{
+    background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');
+    width: 100%;height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    opacity: 0.8;
+}
+.container_center{
+    text-align: center;
+    padding-top: 70px;
+   
+}
+ .container_center img{
+    border-radius: 50%;
+
+    
+ }
+ .container_center h1,p{
+    color: white;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    
+   
+    
+ }
+
+.content{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(181, 170, 170);
+    padding: 50px;
+    
+   
+    
+ }
+ .content .p1,.p2{
+    color: black;
+    font-family:Croissant One;
+
+   
+ }
+ .section{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:400px ;
+    background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800');
+ }
+
+ .fontsecond{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    justify-content:center;
+    
+   
+ }
+ .fontsecond .p_one{
+   text-align: center;
+    color: black;
+   
+   
+    
+    
+ }
+ .fontsecond .p_two{
+    color: rgb(180, 40, 40);;
+
+   
+    
+    
+ }
+
+ .footer{
+    width: 100%;
+    height:100px;
+    background-color:#1f242a; 
+    text-align: center;
+    
+
+ }
+ .footer h1{
+    color: aliceblue;
+    padding-top: 50px;
+    font-size: 18px;
+
+ 
+ }
